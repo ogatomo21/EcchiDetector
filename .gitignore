@@ -1,0 +1,19 @@
+# Go build and test artifacts
+/EcchiDetector
+*.exe
+*.test
+*.out
+
+# Local secrets and environment files
+*.env
+.env*
+/data/
+*.db
+*.db-*
+.agents/
+.netlify/
+node_modules/
+
+# OS metadata
+.DS_Store
+Thumbs.db
